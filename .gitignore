@@ -1,0 +1,72 @@
+# ---- Python basics ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Packaging / build artifacts ----
+build/
+dist/
+*.egg-info/
+*.egg
+*.spec    # PyInstaller spec file (auto-generated, can be re-created)
+
+# ---- Logs & runtime junk ----
+*.log
+*.tmp
+*.temp
+
+# ---- System files ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---- IDE/editor settings ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- Cache ----
+*.cache/
+.cache/
+pip-wheel-metadata/
+
+# ---- OS / file manager previews ----
+Icon?
+.Spotlight-V100
+.Trashes
+
+# ---- App-specific ----
+# If your app creates previews/exports, ignore the output folder:
+output/
+exports/
+previews/
+
+# ---- Local configs / secrets ----
+.env
+.env.*
+*.key
+*.pem
+
+# ---- Databases (if you ever add them) ----
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- Images you don't want tracked (optional)
+# comment out if you want to version control sample images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# ---- Notebooks (if experimenting)
+.ipynb_checkpoints/
