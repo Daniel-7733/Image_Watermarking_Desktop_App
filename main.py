@@ -12,7 +12,7 @@ class ImageWatermarkingDesktopApp:
 
         self.img_size: tuple[int, int] = (500, 300)  # preview size
         self.default_font_ui: tuple[str, int] = ("Arial", 12)
-        self.default_img_path: str = "sayHelloHalloween.png"
+        self.default_img_path: str = "Add your picture.png"
 
         # PIL image you edit on; and a TK image for preview
         self.base_image = None            # type: Image.Image | None
